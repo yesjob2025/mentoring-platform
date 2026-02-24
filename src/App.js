@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { mentorsData, filterCategories } from './mentorsData';
-import logo from './images/logo.jpg';
-import main01 from './images/main01.jpg';
+const logo = "https://via.placeholder.com/150x50?text=MENTOR";
+const main01 = "https://via.placeholder.com/1200x400?text=Career+Mentoring";
 
 // --- [보조 컴포넌트 1: 추천 카드] ---
 const RecommendCard = ({ mentor, onClick }) => (
